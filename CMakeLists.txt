@@ -34,7 +34,7 @@ option(RETRO_VANILLA_LIKE "Brings back the normal v4 limitations." OFF)
 
 set(RETRO_ICON_NAME "RSDKv4 Decomp Icon.ico" CACHE STRING "Icon filename to embed in the executable. Defaults to RSDKv4 Decomp Icon.")
 
-option(RETRO_USE_EOS "Adds Epic Online Services SDK support for multiple network features." ON)  
+option(RETRO_USE_EOS "Adds Epic Online Services SDK support for multiple network features." OFF)  
 
 set(STEAMWORKS_SDK_DIR "${CMAKE_SOURCE_DIR}/dependencies/all/steamworks_sdk")
 set(DISCORD_SDK_DIR "${CMAKE_SOURCE_DIR}/dependencies/all/discord_game_sdk")
