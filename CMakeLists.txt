@@ -42,7 +42,7 @@ set(EOS_SDK_DIR "${CMAKE_SOURCE_DIR}/dependencies/all/eos_sdk")
 
 if(RETRO_ORIGINAL_CODE)
     set(RETRO_MOD_LOADER OFF)
-    set(RETRO_NETWORKING OFF)
+    set(RETRO_NETWORKING ON)
 endif()
 
 if(RETRO_UPDATE_CHECKER)
